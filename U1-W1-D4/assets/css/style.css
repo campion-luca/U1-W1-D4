@@ -1,0 +1,99 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../img/sfondo.png);
+    margin: 0 auto;
+}
+
+.titolo {
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 10px 30px 20px;
+    background-color: #0088AA;
+    width: 92%;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px #666;
+    max-width: 90%;
+}
+
+header .epicode_title,
+li {
+    color: white;
+}
+
+.nav_bar li {
+    list-style-type: none;
+}
+
+.nav_bar li::before {
+    content: "\279E ";
+}
+
+.nav_bar li::after {
+    content: " \1F814";
+} /* IN TEORIA solo da Mac non si veda */
+
+.principale {
+    background-color: white;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px #666;
+    margin: 0px 20px 20px 20px;
+    max-width: 90%;
+}
+
+.footer {
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px #666;
+    color: white;
+    background-color: #005566;
+    text-align: center;
+    padding: 10px 5px 15px 5px;
+    margin: 10px 25px 10px 20px;
+    max-width: 90%;
+}
+
+.footer a {
+    color: #FD36F7;
+}
+
+.video {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    /* firefox */
+    -webkit-border-radius: 10px;
+    /* safari, chrome */
+}
+
+table {
+    border-bottom: 2px solid blue;
+    text-align: center;
+    padding: 8px;
+}
+
+thead:nth-child(even) {
+    background-color: lightgray;
+}
+
+thead> :first-child {
+    background-color: blue;
+    color: white;
+}
+
+.riquadro {
+    background-color: lightgray;
+    border: 5px soldi grey;
+}
+
+button {
+    background-color: #3468CC;
+    color: white;
+}
